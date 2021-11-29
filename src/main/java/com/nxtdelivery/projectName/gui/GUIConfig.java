@@ -93,11 +93,5 @@ public class GUIConfig extends Vigilant {
         super(new File("./config/projectExample.toml"), Reference.NAME + " (v" + Reference.VERSION + ")");
         initialize();
 
-        addDependency("winWidth", "sizeEnabled");
-        addDependency("winTop", "sizeEnabled");
-        addDependency("winBottom", "sizeEnabled");
-        addDependency("winMiddle", "sizeEnabled");
-        addDependency("doPartyDetectionPLUS", "doPartyDetection");
-
     }
 }
